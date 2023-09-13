@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> To do List Application</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="E:\TO-DO list\project2\Font-Awesome-master\css\all.css">
+    <link rel="stylesheet" href="C:\Users\Tech-Sis\Desktop\abisola\TO-DO list\project2\Font-Awesome-master\css\all.css">
+    <script src="js/jquery.min.js.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/proper.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class=" font-weight-bold text-center"> To do Application </h1>
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-text"> Task Title</span>
+                        <div class="row">
+                            <form id="task-form" class="col-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="task" id="task" placeholder="New Task" value="Walk a dog">  
+                                </div>
+                                <input type="submit" value="ADD TASK" class="btn btn-outline-success">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div id="task-title">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="filter" id="filter" placeholder="Filter Task">
+                            </div>
+                            <ul class="list-group"></ul>
+                            <a href="#" class="btn btn-outline-dark clear-task">CLEAR-TASK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
